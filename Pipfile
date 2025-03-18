@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+langchain = "*"
+langgraph = "*"
+langchain_core = "*"
+gandalf = "*"
+langchain-community = "*"
+redis = "*"
+pypdf = "*"
+bs4 = "*"
+langchain-pinecone = "*"
+boto3 = "*"
+uvicorn = "*"
+python-multipart = "*"
+fastapi = "*"
+starlette = "*"
+httpx = "*"
+langchain_openai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
